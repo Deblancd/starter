@@ -27,7 +27,8 @@
               {
                 "group": "Calendar",
                 "icon": "calendar-days",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -35,7 +36,8 @@
               {
                 "group": "Patients",
                 "icon": "user-injured",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -43,7 +45,8 @@
               {
                 "group": "Finances",
                 "icon": "coins",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -51,7 +54,8 @@
               {
                 "group": "Inventory",
                 "icon": "boxes-stacked",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -59,7 +63,8 @@
               {
                 "group": "Labs",
                 "icon": "flask",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -67,7 +72,8 @@
               {
                 "group": "Suppliers",
                 "icon": "truck",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -75,7 +81,8 @@
               {
                 "group": "Insurance",
                 "icon": "shield-heart",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -83,7 +90,8 @@
               {
                 "group": "Settings",
                 "icon": "gear",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -91,7 +99,8 @@
               {
                 "group": "Logs",
                 "icon": "file-lines",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -99,7 +108,8 @@
               {
                 "group": "Analytics",
                 "icon": "chart-line",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -107,7 +117,8 @@
               {
                 "group": "WhatsApp Bot",
                 "icon": "robot",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -115,7 +126,8 @@
               {
                 "group": "Support",
                 "icon": "headset",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -163,7 +175,8 @@
               {
                 "group": "التقويم",
                 "icon": "calendar-days",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -171,7 +184,8 @@
               {
                 "group": "المرضى",
                 "icon": "user-injured",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -179,7 +193,8 @@
               {
                 "group": "الشؤون المالية",
                 "icon": "coins",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -187,7 +202,8 @@
               {
                 "group": "المخزون",
                 "icon": "boxes-stacked",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -195,7 +211,8 @@
               {
                 "group": "المختبرات",
                 "icon": "flask",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -203,7 +220,8 @@
               {
                 "group": "الموردون",
                 "icon": "truck",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -211,7 +229,8 @@
               {
                 "group": "التأمين",
                 "icon": "shield-heart",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -219,7 +238,8 @@
               {
                 "group": "الإعدادات",
                 "icon": "gear",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -227,7 +247,8 @@
               {
                 "group": "السجلات",
                 "icon": "file-lines",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -235,7 +256,8 @@
               {
                 "group": "التحليلات",
                 "icon": "chart-line",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -243,7 +265,8 @@
               {
                 "group": "روبوت واتساب",
                 "icon": "robot",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
@@ -251,7 +274,8 @@
               {
                 "group": "الدعم",
                 "icon": "headset",
-                "pages":   [
+                "expanded": false,
+                "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
