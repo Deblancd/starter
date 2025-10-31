@@ -18,6 +18,7 @@
             "groups": [
               {
                 "group": "Getting started",
+                "expanded": true,
                 "pages": [
                   "index",
                   "quickstart",
@@ -26,6 +27,7 @@
               },
               {
                 "group": "Customization",
+                "expanded": false,
                 "pages": [
                   "essentials/settings",
                   "essentials/navigation"
@@ -33,6 +35,7 @@
               },
               {
                 "group": "Writing content",
+                "expanded": false,
                 "pages": [
                   "essentials/markdown",
                   "essentials/code",
@@ -42,6 +45,7 @@
               },
               {
                 "group": "AI tools",
+                "expanded": false,
                 "pages": [
                   "ai-tools/cursor",
                   "ai-tools/claude-code",
@@ -55,12 +59,14 @@
             "groups": [
               {
                 "group": "API documentation",
+                "expanded": false,
                 "pages": [
                   "api-reference/introduction"
                 ]
               },
               {
                 "group": "Endpoint examples",
+                "expanded": false,
                 "pages": [
                   "api-reference/endpoint/get",
                   "api-reference/endpoint/create",
@@ -77,9 +83,10 @@
         "tabs": [
           {
             "tab": "أدلة",
-            "groups": [
+            "dropdowns": [
               {
-                "group": "البدء",
+                "dropdown": "البدء",
+                "icon": "book-open",
                 "pages": [
                   "index",
                   "quickstart",
@@ -87,14 +94,16 @@
                 ]
               },
               {
-                "group": "التخصيص",
+                "dropdown": "التخصيص",
+                "icon": "square-terminal",
                 "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
               },
               {
-                "group": "كتابة المحتوى",
+                "dropdown": "كتابة المحتوى",
+                "icon": "book-open",
                 "pages": [
                   "essentials/markdown",
                   "essentials/code",
@@ -103,7 +112,8 @@
                 ]
               },
               {
-                "group": "أدوات الذكاء الاصطناعي",
+                "dropdown": "أدوات الذكاء الاصطناعي",
+                "icon": "square-terminal",
                 "pages": [
                   "ai-tools/cursor",
                   "ai-tools/claude-code",
@@ -117,12 +127,14 @@
             "groups": [
               {
                 "group": "توثيق واجهة برمجة التطبيقات (API)",
+                "expanded": false,
                 "pages": [
                   "api-reference/introduction"
                 ]
               },
               {
                 "group": "أمثلة على نقاط النهاية",
+                "expanded": false,
                 "pages": [
                   "api-reference/endpoint/get",
                   "api-reference/endpoint/create",
@@ -151,6 +163,17 @@
       "cursor",
       "vscode"
     ]
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Zalando Sans"
+    },
+    "body": {
+      "family": "Funnel Display"
+    }
   },
   "footer": {
     "socials": {
