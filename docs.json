@@ -1,6 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
+  "interaction": {
+    "drilldown": false
+  },
   "name": "Dentolize & Medicolize University",
   "colors": {
     "primary": "#16A34A",
@@ -252,6 +255,21 @@
                     ]
 
                   }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Integrations",
+            "groups": [
+              {
+                "group": "Integrations",
+                "expanded": false,
+                "pages": [
+                  "en/integrations/sms",
+                  "en/integrations/drive",
+                  "en/integrations/calendar",
+                  "en/integrations/whatsapp"
                 ]
               }
             ]
@@ -522,6 +540,21 @@
                     ]
 
                   }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "التكاملات",
+            "groups": [
+              {
+                "group": "التكاملات",
+                "expanded": false,
+                "pages": [
+                  "ar/integrations/sms",
+                  "ar/integrations/drive",
+                  "ar/integrations/calendar",
+                  "ar/integrations/whatsapp"
                 ]
               }
             ]
