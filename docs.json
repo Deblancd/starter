@@ -29,7 +29,9 @@
                 "icon": "calendar-days",
                 "expanded": false,
                 "pages": [
-                  "essentials/settings",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/markdown",
                   "essentials/navigation"
                 ]
               },
