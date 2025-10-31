@@ -45,6 +45,7 @@
                       {
                         "group": "Patient",
                         "expanded": false,
+                        "icon":"users",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -53,6 +54,7 @@
                       {
                         "group": "Patient Profile",
                         "expanded": false,
+                        "icon": "id-card",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -61,6 +63,7 @@
                       {
                         "group": "Medical History",
                         "expanded": false,
+                        "icon": "notes-medical",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -69,6 +72,7 @@
                       {
                         "group": "Clinical Exams",
                         "expanded": false,
+                        "icon": "stethoscope",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -77,6 +81,7 @@
                       {
                         "group": "Medical Chart",
                         "expanded": false,
+                        "icon": "file-medical",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -85,6 +90,7 @@
                       {
                         "group": "Perio Chart",
                         "expanded": false,
+                        "icon": "tooth",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -93,6 +99,7 @@
                       {
                         "group": "X-Rays",
                         "expanded": false,
+                        "icon": "x-ray",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -101,6 +108,7 @@
                       {
                         "group": "Gallery",
                         "expanded": false,
+                        "icon": "images",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -109,6 +117,7 @@
                       {
                         "group": "Operations",
                         "expanded": false,
+                        "icon": "scalpel",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -117,6 +126,7 @@
                       {
                         "group": "Invoices",
                         "expanded": false,
+                        "icon": "file-invoice-dollar",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -125,6 +135,7 @@
                       {
                         "group": "Payments",
                         "expanded": false,
+                        "icon": "credit-card",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -133,6 +144,7 @@
                       {
                         "group": "Encounters",
                         "expanded": false,
+                        "icon": "handshake",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -141,6 +153,7 @@
                       {
                         "group": "Timeline",
                         "expanded": false,
+                        "icon": "clock-rotate-left",
                         "pages": [
                           "essentials/settings",
                           "essentials/navigation"
@@ -286,8 +299,123 @@
                     "group": "المرضى",
                     "icon": "user-injured",
                     "pages": [
-                      "essentials/settings",
-                      "essentials/navigation"
+                      {
+                        "group": "المرضى",
+                        "expanded": false,
+                        "icon":"users",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "ملف المريض",
+                        "expanded": false,
+                        "icon": "id-card",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "التاريخ الطبي",
+                        "expanded": false,
+                        "icon": "notes-medical",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "الفحوصات السريرية",
+                        "expanded": false,
+                        "icon": "stethoscope",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "السجل الطبي",
+                        "expanded": false,
+                        "icon": "file-medical",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "مخطط اللثة",
+                        "expanded": false,
+                        "icon": "tooth",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "الأشعة السينية",
+                        "expanded": false,
+                        "icon": "x-ray",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "المعرض",
+                        "expanded": false,
+                        "icon": "images",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "العمليات",
+                        "expanded": false,
+                        "icon": "scalpel",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "الفواتير",
+                        "expanded": false,
+                        "icon": "file-invoice-dollar",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "المدفوعات",
+                        "expanded": false,
+                        "icon": "credit-card",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "الزيارات",
+                        "expanded": false,
+                        "icon": "handshake",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "الجدول الزمني",
+                        "expanded": false,
+                        "icon": "clock-rotate-left",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      }
                     ]
                   },
                   {
