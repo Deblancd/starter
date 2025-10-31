@@ -3,9 +3,9 @@
   "theme": "palm",
   "name": "Dentolize & Medicolize University",
   "colors": {
-    "primary": "#0077B9",
-    "light": "#00A9E0",
-    "dark": "#005B8A"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
