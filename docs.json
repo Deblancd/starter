@@ -14,48 +14,110 @@
         "language": "en",
         "tabs": [
           {
-            "tab": "Guides",
-            "groups": [
+            "tab": "Docs",
+            "pages": [
               {
-                "group": "Getting started",
-                "expanded": false,
-                "pages": [
-                  "quickstart",
-                  {
-                    "group": "Editing",
-                    "icon": "pencil",
-                    "pages": [
-                      "essentials/settings",
-                      "essentials/navigation"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Customization",
-                "expanded": false,
+                "group": "Dashboard",
+                "icon": "gauge",
                 "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
               },
               {
-                "group": "Writing content",
-                "expanded": false,
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
+                "group": "Calendar",
+                "icon": "calendar-days",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
                 ]
               },
               {
-                "group": "AI tools",
-                "expanded": false,
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
+                "group": "Patients",
+                "icon": "user-injured",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Finances",
+                "icon": "coins",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Inventory",
+                "icon": "boxes-stacked",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Labs",
+                "icon": "flask",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Suppliers",
+                "icon": "truck",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Insurance",
+                "icon": "shield-heart",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Settings",
+                "icon": "gear",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Logs",
+                "icon": "file-lines",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Analytics",
+                "icon": "chart-line",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "WhatsApp Bot",
+                "icon": "robot",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Support",
+                "icon": "headset",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
                 ]
               }
             ]
@@ -88,42 +150,110 @@
         "language": "ar",
         "tabs": [
           {
-            "tab": "أدلة",
-            "dropdowns": [
+            "tab": "اللوحة الرئيسية",
+            "pages": [
               {
-                "dropdown": "البدء",
-                "icon": "book-open",
-                "pages": [
-                  "index",
-                  "quickstart",
-                  "development"
-                ]
-              },
-              {
-                "dropdown": "التخصيص",
-                "icon": "square-terminal",
+                "group": "لوحة التحكم",
+                "icon": "gauge",
                 "pages": [
                   "essentials/settings",
                   "essentials/navigation"
                 ]
               },
               {
-                "dropdown": "كتابة المحتوى",
-                "icon": "book-open",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
+                "group": "التقويم",
+                "icon": "calendar-days",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
                 ]
               },
               {
-                "dropdown": "أدوات الذكاء الاصطناعي",
-                "icon": "square-terminal",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
+                "group": "المرضى",
+                "icon": "user-injured",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "الشؤون المالية",
+                "icon": "coins",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "المخزون",
+                "icon": "boxes-stacked",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "المختبرات",
+                "icon": "flask",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "الموردون",
+                "icon": "truck",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "التأمين",
+                "icon": "shield-heart",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "الإعدادات",
+                "icon": "gear",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "السجلات",
+                "icon": "file-lines",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "التحليلات",
+                "icon": "chart-line",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "روبوت واتساب",
+                "icon": "robot",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "الدعم",
+                "icon": "headset",
+                "pages":   [
+                  "essentials/settings",
+                  "essentials/navigation"
                 ]
               }
             ]
