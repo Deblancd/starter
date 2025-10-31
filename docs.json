@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "palm",
+  "theme": "almond",
   "name": "Dentolize & Medicolize University",
   "colors": {
     "primary": "#16A34A",
@@ -17,239 +17,240 @@
             "tab": "Documentation",
             "groups": [
               {
-                "group": " ",
+                "group": "Documentation",
                 "expanded": false,
                 "pages": [
                   {
                     "group": "Dashboard",
+                    "icon": "gauge",
                     "pages": [
                       "en/dashboard/overview",
                       "en/dashboard/widgets",
                       "en/dashboard/alerts"
-                    ],
-                    "icon": "gauge"
+                    ]
                   },
                   {
                     "group": "Calendar",
+                    "icon": "calendar-days",
                     "pages": [
                       "en/calendar/calendar-basics",
                       "en/calendar/availability-rules",
                       "en/calendar/sync-integration"
-                    ],
-                    "icon": "calendar-days"
+                    ]
                   },
                   {
                     "group": "Patients",
+                    "icon": "users",
                     "pages": [
                       {
                         "group": "Patient",
+                        "icon": "users",
                         "pages": [
                           "en/patients/patient/create-patient",
                           "en/patients/patient/merge-duplicates",
                           "en/patients/patient/deactivate-patient"
-                        ],
-                        "icon": "users"
+                        ]
                       },
                       {
                         "group": "Patient Profile",
+                        "icon": "id-card",
                         "pages": [
                           "en/patients/patient-profile/profile-fields",
                           "en/patients/patient-profile/contact-updates",
                           "en/patients/patient-profile/emergency-contacts"
-                        ],
-                        "icon": "id-card"
+                        ]
                       },
                       {
                         "group": "Medical History",
+                        "icon": "notes-medical",
                         "pages": [
                           "en/patients/medical-history/intake-forms",
                           "en/patients/medical-history/history-updates",
                           "en/patients/medical-history/allergy-tracking"
-                        ],
-                        "icon": "notes-medical"
+                        ]
                       },
                       {
                         "group": "Clinical Exams",
+                        "icon": "stethoscope",
                         "pages": [
                           "en/patients/clinical-exams/exam-templates",
                           "en/patients/clinical-exams/record-findings",
                           "en/patients/clinical-exams/sign-off"
-                        ],
-                        "icon": "stethoscope"
+                        ]
                       },
                       {
                         "group": "Medical Chart",
+                        "icon": "file-medical",
                         "pages": [
                           "en/patients/medical-chart/chart-navigation",
                           "en/patients/medical-chart/version-history",
                           "en/patients/medical-chart/attachments"
-                        ],
-                        "icon": "file-medical"
+                        ]
                       },
                       {
                         "group": "Perio Chart",
+                        "icon": "tooth",
                         "pages": [
                           "en/patients/perio-chart/charting-basics",
                           "en/patients/perio-chart/probing-schedules",
                           "en/patients/perio-chart/treatment-plans"
-                        ],
-                        "icon": "tooth"
+                        ]
                       },
                       {
                         "group": "X-Rays",
+                        "icon": "x-ray",
                         "pages": [
                           "en/patients/x-rays/upload-x-rays",
                           "en/patients/x-rays/image-annotations",
                           "en/patients/x-rays/calibration"
-                        ],
-                        "icon": "x-ray"
+                        ]
                       },
                       {
                         "group": "Gallery",
+                        "icon": "images",
                         "pages": [
                           "en/patients/gallery/media-library",
                           "en/patients/gallery/sharing-options",
                           "en/patients/gallery/tagging"
-                        ],
-                        "icon": "images"
+                        ]
                       },
                       {
                         "group": "Operations",
+                        "icon": "scalpel",
                         "pages": [
                           "en/patients/operations/procedure-tracking",
                           "en/patients/operations/task-automation",
                           "en/patients/operations/resource-planning"
-                        ],
-                        "icon": "scalpel"
+                        ]
                       },
                       {
                         "group": "Invoices",
+                        "icon": "file-invoice-dollar",
                         "pages": [
                           "en/patients/invoices/issue-invoice",
                           "en/patients/invoices/void-invoice",
                           "en/patients/invoices/invoice-templates"
-                        ],
-                        "icon": "file-invoice-dollar"
+                        ]
                       },
                       {
                         "group": "Payments",
+                        "icon": "credit-card",
                         "pages": [
                           "en/patients/payments/record-payment",
                           "en/patients/payments/refund-payment",
                           "en/patients/payments/payment-methods"
-                        ],
-                        "icon": "credit-card"
+                        ]
                       },
                       {
                         "group": "Encounters",
+                        "icon": "handshake",
                         "pages": [
                           "en/patients/encounters/log-encounter",
                           "en/patients/encounters/review-notes",
                           "en/patients/encounters/follow-up-actions"
-                        ],
-                        "icon": "handshake"
+                        ]
                       },
                       {
                         "group": "Timeline",
+                        "icon": "clock-rotate-left",
                         "pages": [
                           "en/patients/timeline/timeline-filters",
                           "en/patients/timeline/audit-timeline",
                           "en/patients/timeline/event-types"
-                        ],
-                        "icon": "clock-rotate-left"
+                        ]
                       }
-                    ],
-                    "icon": "user-injured"
+                    ]
                   },
                   {
                     "group": "Finances",
+                    "icon": "id-card",
                     "pages": [
                       "en/finances/kpi-dashboard",
                       "en/finances/closing-checklist",
                       "en/finances/payouts"
-                    ],
-                    "icon": "coins"
+                    ]
                   },
                   {
                     "group": "Inventory",
+                    "icon": "notes-medical",
                     "pages": [
                       "en/inventory/inventory-overview",
                       "en/inventory/reorder-workflows",
                       "en/inventory/stock-audits"
-                    ],
-                    "icon": "boxes-stacked"
+                    ]
                   },
                   {
                     "group": "Labs",
+                    "icon": "stethoscope",
                     "pages": [
                       "en/labs/lab-workflow",
                       "en/labs/results-tracking",
                       "en/labs/lab-communication"
-                    ],
-                    "icon": "flask"
+                    ]
                   },
                   {
                     "group": "Suppliers",
+                    "icon": "file-medical",
                     "pages": [
                       "en/suppliers/onboarding",
                       "en/suppliers/contract-management",
                       "en/suppliers/performance-reviews"
-                    ],
-                    "icon": "truck"
+                    ]
                   },
                   {
                     "group": "Insurance",
+                    "icon": "tooth",
                     "pages": [
                       "en/insurance/plans-directory",
                       "en/insurance/claim-status",
                       "en/insurance/pre-authorization"
-                    ],
-                    "icon": "shield-heart"
+                    ]
                   },
                   {
                     "group": "Settings",
+                    "icon": "x-ray",
                     "pages": [
                       "en/settings/global-settings",
                       "en/settings/user-management",
                       "en/settings/regional-settings"
-                    ],
-                    "icon": "gear"
+                    ]
                   },
                   {
                     "group": "Logs",
+                    "icon": "images",
                     "pages": [
                       "en/logs/activity-log",
                       "en/logs/audit-export",
                       "en/logs/retention-policies"
-                    ],
-                    "icon": "file-lines"
+                    ]
                   },
                   {
                     "group": "Analytics",
+                    "icon": "scalpel",
                     "pages": [
                       "en/analytics/metric-definitions",
                       "en/analytics/custom-dashboards",
                       "en/analytics/data-refresh"
-                    ],
-                    "icon": "chart-line"
+                    ]
                   },
                   {
                     "group": "WhatsApp Bot",
+                    "icon": "file-invoice-dollar",
                     "pages": [
                       "en/whatsapp-bot/bot-setup",
                       "en/whatsapp-bot/conversation-design",
                       "en/whatsapp-bot/handoff-process"
-                    ],
-                    "icon": "robot"
+                    ]
                   },
                   {
                     "group": "Support",
+                    "icon": "credit-card",
                     "pages": [
                       "en/support/support-workspace",
                       "en/support/ticket-escalations",
                       "en/support/knowledge-base"
-                    ],
-                    "icon": "headset"
+                    ]
+
                   }
                 ]
               }
@@ -283,242 +284,243 @@
         "language": "ar",
         "tabs": [
           {
-            "tab": "اللوحة الرئيسية",
+            "tab": "دليل المستخدم",
             "groups": [
               {
-                "group": " ",
+                "group": "دليل المستخدم",
                 "expanded": false,
                 "pages": [
                   {
                     "group": "لوحة التحكم",
+                    "icon": "handshake",
                     "pages": [
                       "ar/dashboard/overview",
                       "ar/dashboard/widgets",
                       "ar/dashboard/alerts"
-                    ],
-                    "icon": "gauge"
+                    ]
                   },
                   {
                     "group": "التقويم",
+                    "icon": "clock-rotate-left",
                     "pages": [
                       "ar/calendar/calendar-basics",
                       "ar/calendar/availability-rules",
                       "ar/calendar/sync-integration"
-                    ],
-                    "icon": "calendar-days"
+                    ]
                   },
                   {
                     "group": "المرضى",
+                    "icon": "user-injured",
                     "pages": [
                       {
                         "group": "المرضى",
+                        "icon": "users",
                         "pages": [
                           "ar/patients/patient/create-patient",
                           "ar/patients/patient/merge-duplicates",
                           "ar/patients/patient/deactivate-patient"
-                        ],
-                        "icon": "users"
+                        ]
                       },
                       {
                         "group": "ملف المريض",
+                        "icon": "id-card",
                         "pages": [
                           "ar/patients/patient-profile/profile-fields",
                           "ar/patients/patient-profile/contact-updates",
                           "ar/patients/patient-profile/emergency-contacts"
-                        ],
-                        "icon": "id-card"
+                        ]
                       },
                       {
                         "group": "التاريخ الطبي",
+                        "icon": "notes-medical",
                         "pages": [
                           "ar/patients/medical-history/intake-forms",
                           "ar/patients/medical-history/history-updates",
                           "ar/patients/medical-history/allergy-tracking"
-                        ],
-                        "icon": "notes-medical"
+                        ]
                       },
                       {
                         "group": "الفحوصات السريرية",
+                        "icon": "stethoscope",
                         "pages": [
                           "ar/patients/clinical-exams/exam-templates",
                           "ar/patients/clinical-exams/record-findings",
                           "ar/patients/clinical-exams/sign-off"
-                        ],
-                        "icon": "stethoscope"
+                        ]
                       },
                       {
                         "group": "السجل الطبي",
+                        "icon": "file-medical",
                         "pages": [
                           "ar/patients/medical-chart/chart-navigation",
                           "ar/patients/medical-chart/version-history",
                           "ar/patients/medical-chart/attachments"
-                        ],
-                        "icon": "file-medical"
+                        ]
                       },
                       {
                         "group": "مخطط اللثة",
+                        "icon": "tooth",
                         "pages": [
                           "ar/patients/perio-chart/charting-basics",
                           "ar/patients/perio-chart/probing-schedules",
                           "ar/patients/perio-chart/treatment-plans"
-                        ],
-                        "icon": "tooth"
+                        ]
                       },
                       {
                         "group": "الأشعة السينية",
+                        "icon": "x-ray",
                         "pages": [
                           "ar/patients/x-rays/upload-x-rays",
                           "ar/patients/x-rays/image-annotations",
                           "ar/patients/x-rays/calibration"
-                        ],
-                        "icon": "x-ray"
+                        ]
                       },
                       {
                         "group": "المعرض",
+                        "icon": "images",
                         "pages": [
                           "ar/patients/gallery/media-library",
                           "ar/patients/gallery/sharing-options",
                           "ar/patients/gallery/tagging"
-                        ],
-                        "icon": "images"
+                        ]
                       },
                       {
                         "group": "العمليات",
+                        "icon": "scalpel",
                         "pages": [
                           "ar/patients/operations/procedure-tracking",
                           "ar/patients/operations/task-automation",
                           "ar/patients/operations/resource-planning"
-                        ],
-                        "icon": "scalpel"
+                        ]
                       },
                       {
                         "group": "الفواتير",
+                        "icon": "file-invoice-dollar",
                         "pages": [
                           "ar/patients/invoices/issue-invoice",
                           "ar/patients/invoices/void-invoice",
                           "ar/patients/invoices/invoice-templates"
-                        ],
-                        "icon": "file-invoice-dollar"
+                        ]
                       },
                       {
                         "group": "المدفوعات",
+                        "icon": "credit-card",
                         "pages": [
                           "ar/patients/payments/record-payment",
                           "ar/patients/payments/refund-payment",
                           "ar/patients/payments/payment-methods"
-                        ],
-                        "icon": "credit-card"
+                        ]
                       },
                       {
                         "group": "الزيارات",
+                        "icon": "handshake",
                         "pages": [
                           "ar/patients/encounters/log-encounter",
                           "ar/patients/encounters/review-notes",
                           "ar/patients/encounters/follow-up-actions"
-                        ],
-                        "icon": "handshake"
+                        ]
                       },
                       {
                         "group": "الجدول الزمني",
+                        "icon": "clock-rotate-left",
                         "pages": [
                           "ar/patients/timeline/timeline-filters",
                           "ar/patients/timeline/audit-timeline",
                           "ar/patients/timeline/event-types"
-                        ],
-                        "icon": "clock-rotate-left"
+                        ]
                       }
-                    ],
-                    "icon": "user-injured"
+                    ]
                   },
                   {
                     "group": "الشؤون المالية",
+                    "icon": "coins",
                     "pages": [
                       "ar/finances/kpi-dashboard",
                       "ar/finances/closing-checklist",
                       "ar/finances/payouts"
-                    ],
-                    "icon": "coins"
+                    ]
                   },
                   {
                     "group": "المخزون",
+                    "icon": "boxes-stacked",
                     "pages": [
                       "ar/inventory/inventory-overview",
                       "ar/inventory/reorder-workflows",
                       "ar/inventory/stock-audits"
-                    ],
-                    "icon": "boxes-stacked"
+                    ]
                   },
                   {
                     "group": "المختبرات",
+                    "icon": "flask",
                     "pages": [
                       "ar/labs/lab-workflow",
                       "ar/labs/results-tracking",
                       "ar/labs/lab-communication"
-                    ],
-                    "icon": "flask"
+                    ]
                   },
                   {
                     "group": "الموردون",
+                    "icon": "truck",
                     "pages": [
                       "ar/suppliers/onboarding",
                       "ar/suppliers/contract-management",
                       "ar/suppliers/performance-reviews"
-                    ],
-                    "icon": "truck"
+                    ]
                   },
                   {
                     "group": "التأمين",
+                    "icon": "shield-heart",
                     "pages": [
                       "ar/insurance/plans-directory",
                       "ar/insurance/claim-status",
                       "ar/insurance/pre-authorization"
-                    ],
-                    "icon": "shield-heart"
+                    ]
                   },
                   {
                     "group": "الإعدادات",
+                    "icon": "gear",
                     "pages": [
                       "ar/settings/global-settings",
                       "ar/settings/user-management",
                       "ar/settings/regional-settings"
-                    ],
-                    "icon": "gear"
+                    ]
                   },
                   {
                     "group": "السجلات",
+                    "icon": "file-lines",
                     "pages": [
                       "ar/logs/activity-log",
                       "ar/logs/audit-export",
                       "ar/logs/retention-policies"
-                    ],
-                    "icon": "file-lines"
+                    ]
                   },
                   {
                     "group": "التحليلات",
+                    "icon": "chart-line",
                     "pages": [
                       "ar/analytics/metric-definitions",
                       "ar/analytics/custom-dashboards",
                       "ar/analytics/data-refresh"
-                    ],
-                    "icon": "chart-line"
+                    ]
                   },
                   {
                     "group": "روبوت واتساب",
+                    "icon": "robot",
                     "pages": [
                       "ar/whatsapp-bot/bot-setup",
                       "ar/whatsapp-bot/conversation-design",
                       "ar/whatsapp-bot/handoff-process"
-                    ],
-                    "icon": "robot"
+                    ]
                   },
                   {
                     "group": "الدعم",
+                    "icon": "headset",
                     "pages": [
                       "ar/support/support-workspace",
                       "ar/support/ticket-escalations",
                       "ar/support/knowledge-base"
-                    ],
-                    "icon": "headset"
+                    ]
+
                   }
                 ]
               }
@@ -567,7 +569,7 @@
     ]
   },
   "styling": {
-    "eyebrows": "breadcrumbs"
+    "eyebrows": "section"
   },
   "fonts": {
     "heading": {

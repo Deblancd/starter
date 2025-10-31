@@ -1,0 +1,50 @@
+/*Sidebar*/
+html[lang="ar"] #sidebar-content {
+    direction: rtl;
+}
+
+html[lang="ar"] ul#sidebar-group li button > svg:last-child:not(.rotate-90) {
+    transform: rotate(180deg);
+}
+
+html[lang="ar"] ul#sidebar-group > li > ul > li > button {
+    padding-right: 1.75rem;
+    padding-left: 1rem !important;
+}
+
+html[lang="ar"] ul#sidebar-group > li > ul > li > ul > li > a {
+    padding-right: 2.5rem;
+    padding-left: 1rem !important;
+}
+
+/*Header*/
+html[lang="ar"] #header > div:first-child > .flex {
+    flex-direction: row-reverse;
+}
+
+html[lang="ar"] #header > div:first-child > .flex #page-context-menu {
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+html[lang="ar"] #header > .prose {
+    direction: rtl;
+}
+
+/*Content*/
+html[lang="ar"] .mdx-content {
+    direction: rtl;
+}
+
+html[lang="ar"] .mdx-content > h1 > div.absolute {
+    left: 0;
+}
+
+html[lang="ar"] .mdx-content > h2 > div.absolute {
+    left: 0;
+}
+
+html[lang="ar"] .mdx-content > h3 > div.absolute {
+    left: 0;
+}
