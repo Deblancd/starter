@@ -15,123 +15,117 @@
         "tabs": [
           {
             "tab": "Docs",
-            "pages": [
+            "groups": [
               {
-                "group": "Dashboard",
-                "icon": "gauge",
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Calendar",
-                "icon": "calendar-days",
+                "group": " ",
                 "expanded": false,
                 "pages": [
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/markdown",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Patients",
-                "icon": "user-injured",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Finances",
-                "icon": "coins",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Inventory",
-                "icon": "boxes-stacked",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Labs",
-                "icon": "flask",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Suppliers",
-                "icon": "truck",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Insurance",
-                "icon": "shield-heart",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Settings",
-                "icon": "gear",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Logs",
-                "icon": "file-lines",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Analytics",
-                "icon": "chart-line",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "WhatsApp Bot",
-                "icon": "robot",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Support",
-                "icon": "headset",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
+                  {
+                    "group": "Dashboard",
+                    "icon": "gauge",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Calendar",
+                    "icon": "calendar-days",
+                    "pages": [
+                      "essentials/code",
+                      "essentials/images",
+                      "essentials/markdown",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Patients",
+                    "icon": "user-injured",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Finances",
+                    "icon": "coins",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Inventory",
+                    "icon": "boxes-stacked",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Labs",
+                    "icon": "flask",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Suppliers",
+                    "icon": "truck",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Insurance",
+                    "icon": "shield-heart",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Settings",
+                    "icon": "gear",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Logs",
+                    "icon": "file-lines",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Analytics",
+                    "icon": "chart-line",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "WhatsApp Bot",
+                    "icon": "robot",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "Support",
+                    "icon": "headset",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  }
                 ]
               }
             ]
@@ -165,121 +159,115 @@
         "tabs": [
           {
             "tab": "اللوحة الرئيسية",
-            "pages": [
+            "groups": [
               {
-                "group": "لوحة التحكم",
-                "icon": "gauge",
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "التقويم",
-                "icon": "calendar-days",
+                "group": " ",
                 "expanded": false,
                 "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "المرضى",
-                "icon": "user-injured",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "الشؤون المالية",
-                "icon": "coins",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "المخزون",
-                "icon": "boxes-stacked",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "المختبرات",
-                "icon": "flask",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "الموردون",
-                "icon": "truck",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "التأمين",
-                "icon": "shield-heart",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "الإعدادات",
-                "icon": "gear",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "السجلات",
-                "icon": "file-lines",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "التحليلات",
-                "icon": "chart-line",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "روبوت واتساب",
-                "icon": "robot",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "الدعم",
-                "icon": "headset",
-                "expanded": false,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
+                  {
+                    "group": "لوحة التحكم",
+                    "icon": "gauge",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "التقويم",
+                    "icon": "calendar-days",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "المرضى",
+                    "icon": "user-injured",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "الشؤون المالية",
+                    "icon": "coins",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "المخزون",
+                    "icon": "boxes-stacked",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "المختبرات",
+                    "icon": "flask",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "الموردون",
+                    "icon": "truck",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "التأمين",
+                    "icon": "shield-heart",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "الإعدادات",
+                    "icon": "gear",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "السجلات",
+                    "icon": "file-lines",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "التحليلات",
+                    "icon": "chart-line",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "روبوت واتساب",
+                    "icon": "robot",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  },
+                  {
+                    "group": "الدعم",
+                    "icon": "headset",
+                    "pages": [
+                      "essentials/settings",
+                      "essentials/navigation"
+                    ]
+                  }
                 ]
               }
             ]
