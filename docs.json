@@ -14,7 +14,7 @@
         "language": "en",
         "tabs": [
           {
-            "tab": "Docs",
+            "tab": "Documentation",
             "groups": [
               {
                 "group": " ",
@@ -42,8 +42,110 @@
                     "group": "Patients",
                     "icon": "user-injured",
                     "pages": [
-                      "essentials/settings",
-                      "essentials/navigation"
+                      {
+                        "group": "Patient",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Patient Profile",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Medical History",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Clinical Exams",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Medical Chart",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Perio Chart",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "X-Rays",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Gallery",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Operations",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Invoices",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Payments",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Encounters",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Timeline",
+                        "expanded": false,
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      }
                     ]
                   },
                   {
