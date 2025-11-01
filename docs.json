@@ -20,7 +20,7 @@
             "tab": "Documentation",
             "groups": [
               {
-                "group": "Documentation",
+                "group": " ",
                 "expanded": false,
                 "pages": [
                   "en/index",
@@ -306,7 +306,7 @@
             "tab": "دليل المستخدم",
             "groups": [
               {
-                "group": "دليل المستخدم",
+                "group": " ",
                 "expanded": false,
                 "pages": [
                   "ar/index",
