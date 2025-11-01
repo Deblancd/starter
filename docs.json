@@ -23,6 +23,7 @@
                 "group": "Documentation",
                 "expanded": false,
                 "pages": [
+                  "en/index",
                   {
                     "group": "Dashboard",
                     "icon": "gauge",
@@ -308,6 +309,7 @@
                 "group": "دليل المستخدم",
                 "expanded": false,
                 "pages": [
+                  "ar/index",
                   {
                     "group": "لوحة التحكم",
                     "icon": "handshake",
@@ -592,13 +594,9 @@
   "contextual": {
     "options": [
       "copy",
-      "view",
       "chatgpt",
       "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "perplexity"
     ]
   },
   "styling": {

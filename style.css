@@ -17,6 +17,10 @@ html[lang="ar"] ul#sidebar-group > li > ul > li > ul > li > a {
     padding-left: 1rem !important;
 }
 
+/*Mobile Sidebar*/
+html[lang="ar"] #mobile-nav {
+    direction: rtl;
+}
 /*Header*/
 html[lang="ar"] #header > div:first-child > .flex {
     flex-direction: row-reverse;
@@ -47,4 +51,9 @@ html[lang="ar"] .mdx-content > h2 > div.absolute {
 
 html[lang="ar"] .mdx-content > h3 > div.absolute {
     left: 0;
+}
+
+/*Main Logo*/
+.nav-logo {
+    height: 2.2rem;
 }
