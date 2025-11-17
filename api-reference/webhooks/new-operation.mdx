@@ -1,0 +1,51 @@
+---
+title: New Operation
+description: Payload forwarded when a clinical operation is created.
+openapi: 'WEBHOOK /'
+---
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Operation identifier. |
+| quantity | number | Quantity performed. |
+| price | number | Unit price. |
+| name | string | Operation name. |
+| code | string | Operation code. |
+| service_id | string | Linked procedure identifier. |
+| patient_id | string | Patient associated with the operation. |
+| operator_id | string | Performing doctor identifier. |
+| patient_data | object | Snapshot of the patient at the time of the operation. |
+
+### Patient snapshot
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Patient identifier. |
+| name | string | Combined `firstName` and `lastName`. |
+| file_no | string | Patient chart number. |
+| reference_no | string | Reference identifier. |
+| nationalId | string | National identifier. |
+| phone | string | Phone number segment before the `_` separator, if provided. |
+| mobile | string | Phone number segment after the `_` separator, if provided. |
+
+```json
+{
+  "id": "op_01",
+  "quantity": 1,
+  "price": 150,
+  "name": "Extraction",
+  "code": "EXT-01",
+  "service_id": "proc_11",
+  "patient_id": "pat_123",
+  "operator_id": "doc_09",
+  "patient_data": {
+    "id": "pat_123",
+    "name": "Jane Doe",
+    "file_no": "PT-00017",
+    "reference_no": "REF-883",
+    "nationalId": "1234567890",
+    "phone": "+1",
+    "mobile": "5551234567"
+  }
+}
+```

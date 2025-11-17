@@ -1,0 +1,27 @@
+---
+title: New Payment
+description: Details sent when a payment is created.
+openapi: 'WEBHOOK /'
+---
+
+Use this payload to record payments against invoices.
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Payment identifier. |
+| amount | number | Amount paid. |
+| invoice_id | string | Invoice the payment is applied to. |
+| treasury_id | string | Treasury or drawer receiving the payment. |
+| patient_id | string | Patient the payment belongs to. |
+| bound_type | string | Hardcoded to `outbound`. |
+
+```json
+{
+  "id": "pay_700",
+  "amount": 120,
+  "invoice_id": "inv_2001",
+  "treasury_id": "treasury_01",
+  "patient_id": "pat_123",
+  "bound_type": "outbound"
+}
+```

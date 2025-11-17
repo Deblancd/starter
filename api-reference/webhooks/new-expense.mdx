@@ -1,0 +1,69 @@
+---
+title: New Expense
+description: Structure used when recording a new expense.
+openapi: 'WEBHOOK /'
+---
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Expense identifier. |
+| name | string | Expense name or label. |
+| amount | number | Total expense amount. |
+| main_type | string | Primary expense category. |
+| expense_type | string | Resolved type from `company.expenseTypes` when provided; otherwise uses `payload.type`. |
+| sub_type | string | Secondary category (`payload.other`). |
+| details | string | Optional description. |
+| expense_line_ids | array | Itemized expense lines. |
+| payments | array | Payments tied to the expense. |
+
+<Note>
+  `expenseItems` and `expenseTypes` are parsed from JSON strings when supplied;
+  empty arrays are used when no items are present.
+</Note>
+
+### Expense line schema
+
+| Field | Type | Details |
+| --- | --- | --- |
+| price_unit | number | Unit price of the item. |
+| name | string | Item name. |
+| quantity | number | Item quantity. |
+
+### Expense payment schema
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Payment identifier. |
+| amount | number | Payment amount. |
+| treasury_id | string | Treasury used for the payment. |
+
+```json
+{
+  "id": "exp_301",
+  "name": "Lab supplies",
+  "amount": 240,
+  "main_type": "supplies",
+  "expense_type": "consumables",
+  "sub_type": "gloves and masks",
+  "details": "Monthly restock",
+  "expense_line_ids": [
+    {
+      "price_unit": 40,
+      "name": "Gloves box",
+      "quantity": 3
+    },
+    {
+      "price_unit": 30,
+      "name": "Masks pack",
+      "quantity": 2
+    }
+  ],
+  "payments": [
+    {
+      "id": "exp_pay_01",
+      "amount": 120,
+      "treasury_id": "treasury_01"
+    }
+  ]
+}
+```

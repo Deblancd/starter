@@ -1,0 +1,35 @@
+---
+title: New Patient
+description: Fields forwarded when a patient record is created.
+openapi: 'WEBHOOK /'
+---
+
+The integration normalizes patient creation data before sending it downstream.
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Primary identifier from the originating payload. |
+| name | string | Combined `firstName` and `lastName`. |
+| file_no | string | Patient chart number (`payload.patientId`). |
+| reference_no | string | External reference (`payload.referenceId`). |
+| nationalId | string | National identifier. |
+| details | string | Optional free-form details about the patient. |
+| phone | string | Phone number segment before the `_` separator, if provided. |
+| mobile | string | Phone number segment after the `_` separator, if provided. |
+| country | string | Country associated with the record. |
+| address | string | Street address line. |
+
+```json
+{
+  "id": "pat_123",
+  "name": "Jane Doe",
+  "file_no": "PT-00017",
+  "reference_no": "REF-883",
+  "nationalId": "1234567890",
+  "details": "Primary contact for the family",
+  "phone": "+1",
+  "mobile": "5551234567",
+  "country": "USA",
+  "address": "42 Ocean Avenue"
+}
+```

@@ -1,0 +1,75 @@
+---
+title: New Invoice
+description: Normalized invoice request sent when an invoice is created.
+openapi: 'WEBHOOK /'
+---
+
+Invoice creation requests bundle totals, line items, and contextual patient details.
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Invoice identifier. |
+| total | number | Total amount after all adjustments. |
+| tax | number | Tax value. |
+| discount | number | Discount amount. |
+| subtotal | number | Amount before tax and discount. |
+| taxPercent | number | Tax percentage applied. |
+| discountPercent | number | Discount percentage applied. |
+| file_no | string | Invoice number (`payload.invoiceId`). |
+| reference_no | string | External reference (`payload.referenceId`). |
+| invoice_line_ids | array | Line items for services performed. |
+| patient_id | string | Identifier for the billed patient. |
+| patient_data | object | Patient snapshot with identifiers and contact info. |
+| branch_data | object | Branch context (`id`, `name`) when available. |
+| doctor_data | object | Treating doctor details (`id`, `name`) when available. |
+
+### Invoice line schema
+
+| Field | Type | Details |
+| --- | --- | --- |
+| product_id | string | Source operation identifier. |
+| quantity | number | Units billed. |
+| price_unit | number | Price per unit. |
+| name | string | Display name of the billed service. |
+| service_id | string | Linked procedure identifier, if present. |
+
+```json
+{
+  "id": "inv_2001",
+  "total": 180,
+  "tax": 20,
+  "discount": 10,
+  "subtotal": 170,
+  "taxPercent": 12,
+  "discountPercent": 5,
+  "file_no": "INV-1",
+  "reference_no": "REF-INV-1",
+  "invoice_line_ids": [
+    {
+      "product_id": "op_01",
+      "quantity": 1,
+      "price_unit": 150,
+      "name": "Extraction",
+      "service_id": "proc_11"
+    }
+  ],
+  "patient_id": "pat_123",
+  "patient_data": {
+    "id": "pat_123",
+    "name": "Jane Doe",
+    "file_no": "PT-00017",
+    "reference_no": "REF-883",
+    "nationalId": "1234567890",
+    "phone": "+1",
+    "mobile": "5551234567"
+  },
+  "branch_data": {
+    "id": "br_01",
+    "name": "Main Branch"
+  },
+  "doctor_data": {
+    "id": "doc_09",
+    "name": "Dr. Smith"
+  }
+}
+```

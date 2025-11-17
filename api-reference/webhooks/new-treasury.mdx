@@ -1,0 +1,21 @@
+---
+title: New Treasury
+description: Structure used when creating a treasury record.
+openapi: 'WEBHOOK /'
+---
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Treasury identifier. |
+| name | string | Display name of the treasury. |
+| treasury_type | string | Type/category of the treasury. |
+| initial_balance | number | Opening balance assigned at creation. |
+
+```json
+{
+  "id": "treasury_01",
+  "name": "Front Desk Cash",
+  "treasury_type": "cash",
+  "initial_balance": 5000
+}
+```

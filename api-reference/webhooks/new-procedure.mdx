@@ -1,0 +1,23 @@
+---
+title: New Procedure
+description: Fields sent when a procedure is created.
+openapi: 'WEBHOOK /'
+---
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Procedure identifier. |
+| name | string | Procedure name. |
+| code | string | Procedure code. |
+| service_type | string | Always `service`. |
+| price | number | Default price for the procedure. |
+
+```json
+{
+  "id": "proc_11",
+  "name": "Scaling",
+  "code": "SC-01",
+  "service_type": "service",
+  "price": 85
+}
+```

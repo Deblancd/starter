@@ -1,0 +1,25 @@
+---
+title: New Expense Payment
+description: Fields forwarded when a payment is applied to an expense.
+openapi: 'WEBHOOK /'
+---
+
+| Field | Type | Details |
+| --- | --- | --- |
+| id | string | Expense payment identifier. |
+| expense_id | string | Expense the payment is applied to. |
+| amount | number | Amount paid. |
+| treasury_id | string | Treasury used for the payment. |
+| sub_type | string | Secondary category (`payload.other`). |
+| details | string | Optional description. |
+
+```json
+{
+  "id": "exp_pay_01",
+  "expense_id": "exp_301",
+  "amount": 120,
+  "treasury_id": "treasury_01",
+  "sub_type": "partial",
+  "details": "Half paid in cash"
+}
+```
