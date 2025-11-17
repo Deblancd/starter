@@ -17,6 +17,18 @@ html[lang="ar"] ul#sidebar-group > li > ul > li > ul > li > a {
     padding-left: 1rem !important;
 }
 
+@media (min-width: 1024px) {
+    html[lang="ar"] .lg\:ml-\[16\.5rem\] {
+        margin-right: 16.5rem;
+        margin-left: 0;
+    }
+}
+
+html[lang="ar"] #sidebar-content {
+    left: auto;
+    right: 0;
+}
+
 /*Mobile Sidebar*/
 html[lang="ar"] #mobile-nav {
     direction: rtl;
@@ -51,6 +63,33 @@ html[lang="ar"] .mdx-content > h2 > div.absolute {
 
 html[lang="ar"] .mdx-content > h3 > div.absolute {
     left: 0;
+}
+
+html[lang="ar"] .mdx-content > h3 > div.absolute {
+    left: 0;
+}
+
+html[lang="ar"] #content-container > div {
+    flex-direction: row;
+}
+
+html[lang="ar"] #content-container #table-of-contents {
+    direction: rtl;
+}
+
+html[lang="ar"] #content-container #table-of-contents button span {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+html[lang="ar"] #content-container > div {
+    padding-left: 0;
+    padding-right: 3rem;
+}
+
+html[lang="ar"] #table-of-contents-layout {
+    padding-left: 0;
+    padding-right: 2.5rem;
 }
 
 /*Main Logo*/
