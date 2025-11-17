@@ -286,13 +286,17 @@
                 ]
               },
               {
-                "group": "Endpoint examples",
+                "group": "Webhooks",
                 "expanded": false,
                 "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+                  "api-reference/webhooks/new-patient",
+                  "api-reference/webhooks/new-invoice",
+                  "api-reference/webhooks/new-payment",
+                  "api-reference/webhooks/new-treasury",
+                  "api-reference/webhooks/new-procedure",
+                  "api-reference/webhooks/new-operation",
+                  "api-reference/webhooks/new-expense",
+                  "api-reference/webhooks/new-expense-payment"
                 ]
               }
             ]
@@ -572,13 +576,17 @@
                 ]
               },
               {
-                "group": "أمثلة على نقاط النهاية",
+                "group": "Webhooks",
                 "expanded": false,
                 "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+                  "api-reference/hooks/new-patient",
+                  "api-reference/hooks/new-invoice",
+                  "api-reference/hooks/new-payment",
+                  "api-reference/hooks/new-treasury",
+                  "api-reference/hooks/new-procedure",
+                  "api-reference/hooks/new-operation",
+                  "api-reference/hooks/new-expense",
+                  "api-reference/hooks/new-expense-payment"
                 ]
               }
             ]
