@@ -18,6 +18,7 @@ The integration normalizes patient creation data before sending it downstream.
 | mobile | string | Phone number segment after the `_` separator, if provided. |
 | country | string | Country associated with the record. |
 | address | string | Street address line. |
+| branch_data | object | Branch context (`id`, `name`) when available. |
 
 ```json
 {
@@ -30,6 +31,10 @@ The integration normalizes patient creation data before sending it downstream.
   "phone": "+1",
   "mobile": "5551234567",
   "country": "USA",
-  "address": "42 Ocean Avenue"
+  "address": "42 Ocean Avenue",
+  "branch_data": {
+    "id": "br_01",
+    "name": "Main Branch"
+  }
 }
 ```

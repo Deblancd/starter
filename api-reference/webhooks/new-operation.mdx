@@ -14,6 +14,7 @@ openapi: 'WEBHOOK /'
 | service_id | string | Linked procedure identifier. |
 | patient_id | string | Patient associated with the operation. |
 | operator_id | string | Performing doctor identifier. |
+| branch_data | object | Branch context (`id`, `name`) when available. |
 | patient_data | object | Snapshot of the patient at the time of the operation. |
 
 ### Patient snapshot
@@ -38,6 +39,10 @@ openapi: 'WEBHOOK /'
   "service_id": "proc_11",
   "patient_id": "pat_123",
   "operator_id": "doc_09",
+  "branch_data": {
+    "id": "br_01",
+    "name": "Main Branch"
+  },
   "patient_data": {
     "id": "pat_123",
     "name": "Jane Doe",

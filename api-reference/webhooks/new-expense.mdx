@@ -13,6 +13,7 @@ openapi: 'WEBHOOK /'
 | expense_type | string | Resolved type from `company.expenseTypes` when provided; otherwise uses `payload.type`. |
 | sub_type | string | Secondary category (`payload.other`). |
 | details | string | Optional description. |
+| branch_data | object | Branch context (`id`, `name`) when available. |
 | expense_line_ids | array | Itemized expense lines. |
 | payments | array | Payments tied to the expense. |
 
@@ -46,6 +47,10 @@ openapi: 'WEBHOOK /'
   "expense_type": "consumables",
   "sub_type": "gloves and masks",
   "details": "Monthly restock",
+  "branch_data": {
+    "id": "br_01",
+    "name": "Main Branch"
+  },
   "expense_line_ids": [
     {
       "price_unit": 40,
